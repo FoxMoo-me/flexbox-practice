@@ -1,0 +1,17 @@
+#containerFlexRow {
+display: flex;
+flex-direction: row;
+border: 1rem dotted black;
+background-color: aquamarine;
+height: 600px;
+}
+
+#item {
+
+}
+
+#containerFlexColumn {
+    display: flex;
+    flex-direction: column;
+    border: 1rem dotted black;
+    }
