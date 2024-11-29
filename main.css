@@ -1,17 +1,34 @@
-#containerFlexRow {
-display: flex;
-flex-direction: row;
-border: 1rem dotted black;
-background-color: aquamarine;
-height: 600px;
-}
-
-#item {
-
-}
-
-#containerFlexColumn {
-    display: flex;
-    flex-direction: column;
-    border: 1rem dotted black;
+body {
+    margin: 5rem;
     }
+
+.container {
+    display: flex;
+    border: 0.5rem dotted black;
+    background-color: aquamarine;
+    height: 200px;
+    padding-top: 2rem;
+    margin-top: 1rem;
+    }
+
+.item {
+    border: 1px double #457081;
+    margin: 1rem;
+    }
+
+.container .flexRow {
+    flex-direction: row;
+    border: 0.5rem dotted black;
+    background-color: aquamarine;
+   
+    padding-top: 2rem;
+    }
+
+.container .flexColumn {
+    flex-direction: column;
+    border: 0.1rem dashed black;
+    height: 200px;
+    background-color: bisque;
+    margin-top: 2rem;
+    }
+
